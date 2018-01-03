@@ -14,4 +14,4 @@ ENV TIMEOUT         60
 
 RUN apt-get update && \
     apt-get upgrade -y \
-    apt-get install \y shadowsocks-libev
+    apt-get install -y shadowsocks-libev
