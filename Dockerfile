@@ -1,9 +1,9 @@
 # shadowsocks 
 # VERSION 0.1
 
-MAINTAINER Hani Hashemi <jhanihashemi@gmail.com>
-
 FROM ubuntu:17.10
+
+MAINTAINER Hani Hashemi <jhanihashemi@gmail.com>
 
 ENV SERVER_ADDR     0.0.0.0
 ENV SERVER_PORT     8388
@@ -14,4 +14,3 @@ ENV TIMEOUT         60
 
 RUN apt-get update && \
     apt-get install shadowsocks-libev
-
