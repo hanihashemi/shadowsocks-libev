@@ -13,4 +13,5 @@ ENV METHOD          aes-256-cfb
 ENV TIMEOUT         60
 
 RUN apt-get update && \
-    apt-get install shadowsocks-libev
+    apt-get upgrade -y \
+    apt-get install \y shadowsocks-libev
